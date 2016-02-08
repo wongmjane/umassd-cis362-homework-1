@@ -4,17 +4,8 @@
 #include <vector>
 #include "Sorts.h"
 
-// reads then returns an unsigned integer from an std::istream
-unsigned read_uint(std::istream& the_stream)
-{
-    unsigned n;
-    the_stream >> n;
-    return n;
-}
-
 int main(int argc, char** argv)
 {
-
     clock_t duration;
     size_t n;
 
